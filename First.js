@@ -1,15 +1,17 @@
-console.log("Akhi Azim Papri");
+const student = {
+    fullName : "Akhi Azim Papri",
+    age : 22,
+    cgpa : 3.03,
+    isPass : true,
+    session : "2020-21",
+};
 
-fullName = "Tony Stark"
-age = 24;
-price = 99.99;
-x = null;
-y = undefined;
-isFollow = true; //boolian = true or false.
+student["fullName"] = "Pakhi";
+student["age"] = student["age"] + 1; //increasing value
 
-console.log(fullName);
-console.log(age);
-console.log(price);
-console.log(x);
-console.log(y);
-console.log(isFollow);
+console.log(student["age"]);  
+// or 
+console.log(student.cgpa);
+console.log(student.fullName);
+
+//const variable cannot be changed. But a const object's keys can be changed.
