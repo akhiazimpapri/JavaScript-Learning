@@ -1,8 +1,10 @@
-const product = {
-    title: "Ball Pen",
-    rating: 4,
-    offer: 5,
-    price: 270,
+const profile = {
+    userName: "@shadhakhapra",
+    isFollow: false,
+    totalPosts: 195,
+    followers: 569,
+    following: 4,
+
 };
 
-console.log(product);
+console.log(profile);
