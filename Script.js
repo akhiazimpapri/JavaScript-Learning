@@ -1,11 +1,11 @@
-let marks = [85,97,44,37,76,60];
-let sum = 0;
-let length = marks.length;
-for(let i = 0; i<length; i++)
+let prices = [250,645,300,900,50];
+let length = prices.length;
+
+let i = 0;
+for(let price of prices)
 {
-    sum = sum + marks[i];
+    console.log(`value at index ${i} = ${price}`);
+    price = price - (price / 10);
+    console.log(`value after offer = ${price}`);
+    i++;
 }
-
-let avg = sum / length;
-
-console.log(`Avg marks of the class = ${avg}`);
