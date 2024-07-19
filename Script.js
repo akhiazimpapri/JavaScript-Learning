@@ -1,13 +1,8 @@
-let a = 5;
-let b = 2;
-let c = a + b;
-console.log("a + b =", c);
-console.log("a - b =", a - b);
-console.log("a * b =", a * b);
-console.log("a / b =", a / b);
-console.log("a % b =", a % b);
-console.log("a ** b =", a ** b); //Exponentiation, a^b.
-console.log("a++ =", a++);
-console.log("++a =", ++a);
-console.log("a-- =", a--);
-console.log("--a =", --a);
+let number = prompt("Enter a number:");
+
+if(number % 5 === 0){
+    console.log(number, "is a multiple of 5.");
+}
+else{
+    console.log(number, "is NOT a multiple of 5.");
+}
