@@ -1,7 +1,9 @@
-for(let i = 0; i <= 100; i++)
-{
-    if(i % 2 === 0)
-    {
-        console.log("i =",i);
-    }
+let gameNum = 25;
+
+let userNum = prompt("Guess the game number : ");
+
+while(userNum != gameNum){
+    userNum = prompt("You entered wrong number, Guess again : ");
 }
+
+console.log("Congratulations, you entered the right number.");
