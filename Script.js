@@ -1,9 +1,6 @@
-let gameNum = 25;
+let fullName;
+ fullName = prompt("Enter your fullNam without space.");
 
-let userNum = prompt("Guess the game number : ");
+ let userName = "@" + fullName + fullName.length;
 
-while(userNum != gameNum){
-    userNum = prompt("You entered wrong number, Guess again : ");
-}
-
-console.log("Congratulations, you entered the right number.");
+ console.log(userName);
