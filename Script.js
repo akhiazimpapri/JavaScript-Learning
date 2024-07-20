@@ -1,5 +1,5 @@
 let string = prompt("Enter a string of lowerCase.")
-function findVowels(str) {
+let findVowels = (str) => {
     let count = 0;
     for(const char of str)
     {
