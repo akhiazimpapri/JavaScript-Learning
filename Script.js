@@ -1,22 +1,13 @@
-function myFuncton() {
-    console.log("Akhi Azim Papri");
-    console.log("I am learning JS");
+let string = prompt("Enter a string of lowerCase.")
+function findVowels(str) {
+    let count = 0;
+    for(const char of str)
+    {
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u")
+        {
+            count++;
+        }
+    }
+    return count;
 }
-myFuncton();
-
-function returnFunction(number, n) {
-    console.log(number);
-    console.log(number * n);
-    sum = number + n;
-    return sum; 
-}
-returnFunction(50, 3);
-let re = returnFunction(50, 3);
-console.log(re);
-
-//arrow function
-const sumi = (a,b) => {
-    return a + b;
-} 
-console.log(sumi);
-console.log(sumi(3,4));
+console.log(findVowels(string));
